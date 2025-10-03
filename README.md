@@ -9,3 +9,9 @@
 <img width="450" height="278" alt="CV2MIDI 2d" src="https://github.com/user-attachments/assets/6818681b-1256-4342-84c0-ecc4606a2c2a" />
 
 ![CV2MIDI 2d](https://github.com/user-attachments/assets/ff352d57-e257-47fc-9edc-7052a1d182b6)
+
+What is missing here is CV and Gate input overvoltage protection. Somehow I haven't rhought of that when designing these PCBs.
+The following schematics has to be added to both inputs:
+<img width="683" height="560" alt="Protect overvoltage" src="https://github.com/user-attachments/assets/f26d6798-38f7-45a2-9e90-799cc4f8a569" />
+
+3 components have to be added to each input. The PCB has configuration jumpers, so it would be easy to fix this by using those as soldering pads, to freewire this minimal addition.
