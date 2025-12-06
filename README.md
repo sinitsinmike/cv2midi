@@ -1,5 +1,3 @@
-Gerber files have an error. The bottom is solid copper, effectively shortimg all the pins. Will update gerbers eventually.
-
 <img width="369" height="213" alt="CV2MIDI board" src="https://github.com/user-attachments/assets/b73a1cb7-605d-4423-8427-64a7c1ac0055" />
 
 ![CV2MIDI board](https://github.com/user-attachments/assets/8c210190-3927-46ec-b412-952fb3cd6b8d)
